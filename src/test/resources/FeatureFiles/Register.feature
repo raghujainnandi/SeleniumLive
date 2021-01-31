@@ -5,11 +5,11 @@ Feature: Registraition functionality scenarios
     Given I launch the application
     And I navigate to Account Registration page
     When I provide all the below valid details
-    	| FirstName | Raju								|
+    	| FirstName | Rakesh								|
     	| LastName  | Kumar						|
-    	| Email			| raghujain80@gmail.com |
-    	| Telephone	| 1234560281					|
-    	| Password	| Test09								|
+    	| Email			| raghujain8000@gmail.com |
+    	| Telephone	| 1233560281					|
+    	| Password	| Test02							|
     And I select the Privacy Policy
     And I click on Continue button
     Then I should see that the User Account has successfully created
@@ -28,11 +28,11 @@ Feature: Registraition functionality scenarios
     Given I launch the application
     And I navigate to Account Registration page
     When I provide all the below valid details
-    	| FirstName | Rahul								|
+    	| FirstName | Rahu							|
     	| LastName  | Kum					|
-    	| Email			| Ravi.7822@gmail.com |
-    	| Telephone	| 1234560690						|
-    	| Password	| khramkmk								|
+    	| Email			| Ravi.22@gmail.com |
+    	| Telephone	| 1234580690						|
+    	| Password	| amkmk								|
     And I select the Privacy Policy
     And I subscribe to NewsLetter
     And I click on Continue button
